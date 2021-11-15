@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.side_menu {
+  width: 20vw;
+  background: #17183b;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_menu .brand_name {
+  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+}
+
+.side_menu .brand_name h2 {
+  color: white;
+}
+
+.side_menu li {
+  padding: 10px 40px;
+  color: white;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  border-top: 1px solid rgba(202, 146, 146, 0.5);
+  border-bottom: 1px solid rgba(202, 146, 146, 0.5);
+}
+
+.side_menu li:hover {
+  color: #17183b;
+  background: white;
+}
+
+.container {
+  background: #f1f1f1;
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+}
+
+.container .header {
+  background: white;
+  width: 80vw;
+  height: 10vh;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .header .nav {
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+
+.container .header .nav .search {
+  flex: 3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.container .header .nav .search input[type="text"] {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px;
+  width: 50%;
+}
+
+.container .header .nav .search button {
+  border: none;
+  width: 40px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .header .user {
+  background: white;
+
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .header .user .adds .btn {
+  background: #17183b;
+  color: white;
+}
+
+.container .header .user .adds .btn:hover {
+  color: #17183b;
+  background-color: white;
+  border: 1px solid #17183b;
+  padding: 3px 8px;
+}
+
+.container .header .user .noti_icons button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background: #17183b;
+  border: none;
+}
+
+.container .header .user .noti_icons button:hover {
+  color: #17183b;
+  background: white;
+  border: 1px solid #17183b;
+}
+
+/* .btn {
+  display: flex;
+  height: 40px;
+  color: white;
+  padding: 5px 10px;
+  background: #17183b;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.container .header .user {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header .user button {
+  display: flex;
+  width: 50px;
+  border: none;
+  color: #17183b;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+*/
+/* try to add user icon  */
+
+/* 
+.container .header .nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}  */
